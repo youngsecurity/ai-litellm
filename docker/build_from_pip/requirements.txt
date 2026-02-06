@@ -4,3 +4,4 @@ langfuse
 prisma
 openai==1.99.9
 ddtrace==2.19.0 # for advanced DD tracing / profiling
+protobuf>=5.29.6 # not directly required, pinned by Snyk to avoid a vulnerability
